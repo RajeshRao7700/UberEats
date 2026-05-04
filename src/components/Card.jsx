@@ -1,3 +1,5 @@
+import { FaShoppingBasket } from "react-icons/fa";
+
 const RestaurantCard = ({ data }) => {
     return (
         // <div className="cursor-pointer">
@@ -28,7 +30,17 @@ const RestaurantCard = ({ data }) => {
         // </div>
 
         <div className="card ">
-            <div className="w-64 h-48 rounded-2xl bg-red-100"></div>
+            <div className="w-64 h-56 rounded-2xl bg-red-100">
+                <div className="w-auto h-36 rounded-t-2xl bg-purple-100"></div>
+                <div className="p-2">
+                <h1 className="font-semibold">Whole Chicken</h1>
+                <div className="flex justify-between">
+                    <p>₹ 200</p>
+                    <button className="flex items-center gap-2 w-20 justify-center h-8 text-white rounded-full bg-red-800">Add<FaShoppingBasket /></button>
+                </div>
+                </div>
+                
+            </div>
 
         </div>
     );
