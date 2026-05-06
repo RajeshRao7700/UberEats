@@ -12,8 +12,8 @@ const Navbar = () => {
             <div className="w-full h-20 items-center flex">
                 <Link to='/' className="w-1/5 ">Logo</Link>
                 <ul className="w-4/5  flex items-center justify-end text-xl text-gray-700 font-bold gap-8">
-                    {/* <li className="flex items-center gap-2"><LiaSuitcaseSolid />Uber Corporate</li> */}
-                    <li className="flex items-center gap-2"><LiaSuitcaseSolid />Sai Teju Store</li>
+                    <li className="flex items-center gap-2"><LiaSuitcaseSolid />Uber Corporate</li>
+
                     <li className="flex items-center gap-2"><CiSearch />Search</li>
                     <li className="flex items-center gap-2"><BiSolidOffer />Offers</li>
                     <Link to='/Aboutus' className="flex items-center gap-2"><GiHelp />About Us</Link>

@@ -29,17 +29,18 @@ const RestaurantCard = ({ data }) => {
         //     </div>
         // </div>
 
-        <div className="card ">
-            <div className="w-64 h-56 rounded-2xl bg-red-100">
-                <div className="w-auto h-36 rounded-t-2xl bg-purple-100"></div>
-                <div className="p-2">
-                <h1 className="font-semibold">Whole Chicken</h1>
-                <div className="flex justify-between">
+        <div className="card border-gray-500 border-2 border-solid rounded-2xl hover:cursor-pointer hover:scale-105 transition hover:shadow-2xl">
+            <div className="w-64 h-60 rounded-2xl  bg-red-100">
+                <img src="/chicken.png" alt="" className="w-full h-full rounded-t-2xl" />
+            </div>
+            <div className="flex">
+                <div className="p-2  ">
+                    <h1 className="font-semibold">Whole Chicken</h1>
                     <p>₹ 200</p>
-                    <button className="flex items-center gap-2 w-20 justify-center h-8 text-white rounded-full bg-red-800">Add<FaShoppingBasket /></button>
                 </div>
+                <div className="flex justify-center items-center">
+                    <button className="flex items-center gap-2 w-20 justify-center h-8 ml-10 text-white rounded-full bg-red-800">Add<FaShoppingBasket /></button>
                 </div>
-                
             </div>
 
         </div>
