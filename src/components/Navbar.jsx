@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
         <div>
             <div className="w-full h-20 items-center flex">
-                <Link to='/' className="w-1/5 ">Logo</Link>
+                <Link to='/' className="w-1/5 "><img src="/ubereatslogo.png" alt="" className="h-20 w-56 " /></Link>
                 <ul className="w-4/5  flex items-center justify-end text-xl text-gray-700 font-bold gap-8">
                     <li className="flex items-center gap-2"><LiaSuitcaseSolid />Uber Corporate</li>
 

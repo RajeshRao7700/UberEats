@@ -5,7 +5,7 @@ const RestaurantCard = ({ data }) => {
         // <div className="cursor-pointer">
 
         //     Image
-        //     <div className="rounded-xl overflow-hidden">
+        //     <div className="rounded-xl overflow-hidden"
         //         <img
         //             src={data.image}
         //             alt={data.restaurantName}
