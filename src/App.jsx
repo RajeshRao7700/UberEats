@@ -7,6 +7,7 @@ import Login from './pages/Login';
 import Cart from './pages/Cart';
 import ContactUs from './pages/ContactUs';
 import AboutUs from './pages/AboutUs';
+import Footer from './components/Footer';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -23,6 +24,7 @@ function App() {
 
 
       </Routes>
+      <Footer />
     </>
   )
 }
